@@ -51,6 +51,19 @@
 	"overrides": [
 		{
 			"includes": [
+				"src/tailwind.css"
+			],
+			"linter": {
+				"rules": {
+					"recommended": true,
+					"suspicious": {
+						"noUnknownAtRules": "off"
+					}
+				}
+			}
+		},
+		{
+			"includes": [
 				"**/*.{ts,tsx}"
 			],
 			"linter": {
