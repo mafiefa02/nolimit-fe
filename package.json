@@ -14,7 +14,6 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
-		"@radix-ui/react-slot": "^1.2.3",
 		"@tailwindcss/vite": "^4.1.14",
 		"@tanstack/react-query": "^5.90.5",
 		"class-variance-authority": "^0.7.1",
@@ -25,7 +24,8 @@
 		"react-dom": "^19.1.1",
 		"recharts": "2.15.4",
 		"tailwind-merge": "^3.3.1",
-		"tailwindcss": "^4.1.14"
+		"tailwindcss": "^4.1.14",
+		"radix-ui": "latest"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.2.6",
