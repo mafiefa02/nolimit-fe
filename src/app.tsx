@@ -1,10 +1,11 @@
 import "./tailwind.css";
-import { QueryProvider } from "./components/query-provider";
+import { QueryProvider } from "./components/providers/query-provider";
+import { IndexPage } from "./pages";
 
 export const App = () => {
 	return (
 		<QueryProvider>
-			<p>App</p>
+			<IndexPage />
 		</QueryProvider>
 	);
 };
